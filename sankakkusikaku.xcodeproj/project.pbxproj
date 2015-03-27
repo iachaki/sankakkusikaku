@@ -14,6 +14,9 @@
 		08D139E31AC3A2520066AE23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D139E21AC3A2520066AE23 /* Images.xcassets */; };
 		08D139E61AC3A2520066AE23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08D139E41AC3A2520066AE23 /* LaunchScreen.xib */; };
 		08D139F21AC3A2520066AE23 /* sankakkusikakuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D139F11AC3A2520066AE23 /* sankakkusikakuTests.m */; };
+		08D139FC1AC3A26A0066AE23 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D139FB1AC3A26A0066AE23 /* MediaPlayer.framework */; };
+		08D13A3A1AC4E2E30066AE23 /* sankaku.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 08D13A391AC4E2E30066AE23 /* sankaku.m4v */; };
+		08D13A3C1AC4E38D0066AE23 /* sankaku1.png in Resources */ = {isa = PBXBuildFile; fileRef = 08D13A3B1AC4E38D0066AE23 /* sankaku1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		08D139EB1AC3A2520066AE23 /* sankakkusikakuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sankakkusikakuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D139F01AC3A2520066AE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08D139F11AC3A2520066AE23 /* sankakkusikakuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sankakkusikakuTests.m; sourceTree = "<group>"; };
+		08D139FB1AC3A26A0066AE23 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		08D13A391AC4E2E30066AE23 /* sankaku.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = sankaku.m4v; sourceTree = "<group>"; };
+		08D13A3B1AC4E38D0066AE23 /* sankaku1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sankaku1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D139FC1AC3A26A0066AE23 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +70,8 @@
 		08D139C91AC3A2520066AE23 = {
 			isa = PBXGroup;
 			children = (
+				08D13A3B1AC4E38D0066AE23 /* sankaku1.png */,
+				08D139FB1AC3A26A0066AE23 /* MediaPlayer.framework */,
 				08D139D41AC3A2520066AE23 /* sankakkusikaku */,
 				08D139EE1AC3A2520066AE23 /* sankakkusikakuTests */,
 				08D139D31AC3A2520066AE23 /* Products */,
@@ -81,6 +90,7 @@
 		08D139D41AC3A2520066AE23 /* sankakkusikaku */ = {
 			isa = PBXGroup;
 			children = (
+				08D13A391AC4E2E30066AE23 /* sankaku.m4v */,
 				08D139D91AC3A2520066AE23 /* AppDelegate.h */,
 				08D139DA1AC3A2520066AE23 /* AppDelegate.m */,
 				08D139DC1AC3A2520066AE23 /* ViewController.h */,
@@ -201,6 +211,8 @@
 			files = (
 				08D139E11AC3A2520066AE23 /* Main.storyboard in Resources */,
 				08D139E61AC3A2520066AE23 /* LaunchScreen.xib in Resources */,
+				08D13A3C1AC4E38D0066AE23 /* sankaku1.png in Resources */,
+				08D13A3A1AC4E2E30066AE23 /* sankaku.m4v in Resources */,
 				08D139E31AC3A2520066AE23 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
