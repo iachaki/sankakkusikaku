@@ -75,7 +75,7 @@
     [UIView beginAnimations:nil context:nil];
     //アニメーション
     
-    sankakuImageView.frame = CGRectMake(50, 150, 100, 100);
+    sankakuImageView.frame = CGRectMake(50, 300, 100, 100);
     //100×100の大きさで、x=50、y=150の位置まで動かす
     
     [UIView commitAnimations];
