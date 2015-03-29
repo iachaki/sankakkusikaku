@@ -75,12 +75,13 @@
     [UIView beginAnimations:nil context:nil];
     //アニメーション
     
+    [UIView setAnimationDuration:10.0];//アニメーションの実行時間を設定（例では10秒）
+    
     sankakuImageView.frame = CGRectMake(50, 300, 100, 100);
     //100×100の大きさで、x=50、y=150の位置まで動かす
     
     [UIView commitAnimations];
 
-    
 }
 
 
