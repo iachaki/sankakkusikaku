@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0841A4FF1AC98A6D00B0A198 /* top sankaku-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 0841A4FE1AC98A6D00B0A198 /* top sankaku-01.png */; };
 		08D139D81AC3A2520066AE23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D139D71AC3A2520066AE23 /* main.m */; };
 		08D139DB1AC3A2520066AE23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D139DA1AC3A2520066AE23 /* AppDelegate.m */; };
 		08D139DE1AC3A2520066AE23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D139DD1AC3A2520066AE23 /* ViewController.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0841A4FE1AC98A6D00B0A198 /* top sankaku-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top sankaku-01.png"; sourceTree = "<group>"; };
 		08D139D21AC3A2520066AE23 /* sankakkusikaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sankakkusikaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D139D61AC3A2520066AE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08D139D71AC3A2520066AE23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		08D139C91AC3A2520066AE23 = {
 			isa = PBXGroup;
 			children = (
+				0841A4FE1AC98A6D00B0A198 /* top sankaku-01.png */,
 				08D13A3B1AC4E38D0066AE23 /* sankaku1.png */,
 				08D139FB1AC3A26A0066AE23 /* MediaPlayer.framework */,
 				08D139D41AC3A2520066AE23 /* sankakkusikaku */,
@@ -211,6 +214,7 @@
 			files = (
 				08D139E11AC3A2520066AE23 /* Main.storyboard in Resources */,
 				08D139E61AC3A2520066AE23 /* LaunchScreen.xib in Resources */,
+				0841A4FF1AC98A6D00B0A198 /* top sankaku-01.png in Resources */,
 				08D13A3C1AC4E38D0066AE23 /* sankaku1.png in Resources */,
 				08D13A3A1AC4E2E30066AE23 /* sankaku.m4v in Resources */,
 				08D139E31AC3A2520066AE23 /* Images.xcassets in Resources */,
@@ -424,6 +428,7 @@
 				08D139F71AC3A2520066AE23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08D139F81AC3A2520066AE23 /* Build configuration list for PBXNativeTarget "sankakkusikakuTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +437,7 @@
 				08D139FA1AC3A2520066AE23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

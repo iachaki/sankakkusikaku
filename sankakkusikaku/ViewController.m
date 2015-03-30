@@ -18,6 +18,10 @@
 
 @implementation ViewController
 
+-(IBAction)click{
+    
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
