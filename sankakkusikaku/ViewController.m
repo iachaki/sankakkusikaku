@@ -72,7 +72,7 @@
 -(void)movieFinishedCallback:(NSNotification*)notification
 {
 
-    UIImageView *sankakuImageView = [[UIImageView alloc] initWithFrame:CGRectMake(50, 50, 100, 100)];
+    UIImageView *sankakuImageView = [[UIImageView alloc] initWithFrame:CGRectMake(50, 50, 30, 30)];
     [sankakuImageView setImage:[UIImage imageNamed:@"sankaku1.png"]];
     [self.view addSubview:sankakuImageView];
     
@@ -81,8 +81,24 @@
     
     [UIView setAnimationDuration:2.0];//アニメーションの実行時間を設定（2秒）
     
-    sankakuImageView.frame = CGRectMake(50, 300, 100, 100);
+    sankakuImageView.frame = CGRectMake(200, 300, 30, 30);
     //100×100の大きさで、x=50、y=150の位置まで動かす
+    
+    
+    
+    
+    UIImageView *maruImageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 20, 20, 20)];
+    [maruImageView setImage:[UIImage imageNamed:@"maru1.png"]];
+    [self.view addSubview:maruImageView];
+    
+    [UIView beginAnimations:nil context:nil];
+    //アニメーション
+    
+    [UIView setAnimationDuration:1.0];//アニメーションの実行時間を設定（2秒）
+    
+    maruImageView.frame = CGRectMake(60, 400, 20, 20);
+    //100×100の大きさで、x=50、y=150の位置まで動かす
+    
     
     [UIView commitAnimations];
 
