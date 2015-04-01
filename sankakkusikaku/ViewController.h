@@ -17,6 +17,6 @@
 
 @property (nonatomic, retain) MPMoviePlayerController *player;
 
--(IBAction)click;
+-(IBAction)touch;
 @end
 
