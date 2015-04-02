@@ -18,7 +18,7 @@
 
 @implementation ViewController
 
--(IBAction)click{
+-(IBAction)start{
     
 }
 
@@ -87,6 +87,8 @@
     
     
     
+    
+    
     UIImageView *maruImageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 20, 20, 20)];
     [maruImageView setImage:[UIImage imageNamed:@"maru1.png"]];
     [self.view addSubview:maruImageView];
@@ -101,6 +103,8 @@
     
     
     [UIView commitAnimations];
+    
+    
 
 }
 
