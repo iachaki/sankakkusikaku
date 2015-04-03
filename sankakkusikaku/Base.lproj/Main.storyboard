@@ -5,6 +5,25 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="Zgx-j7-dGn">
+            <objects>
+                <viewController id="3jd-fv-Hxl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5OD-a3-M7w"/>
+                        <viewControllerLayoutGuide type="bottom" id="2H5-bl-Ezd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WF2-rQ-YBD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GXN-3y-2LU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-887" y="148"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="aSA-uz-sgz">
             <objects>
                 <viewController id="Tec-MF-opP" sceneMemberID="viewController">
@@ -16,20 +35,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKe-3d-gE9">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <connections>
-                                    <segue destination="vXZ-lx-hvc" kind="show" id="I16-28-GTh"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="top sankaku-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="P9J-OW-Dmb">
                                 <rect key="frame" x="0.0" y="55" width="320" height="451"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYF-hV-5TL">
-                                <rect key="frame" x="137" y="438" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYF-hV-5TL">
+                                <rect key="frame" x="68" y="491" width="185" height="42"/>
+                                <state key="normal" title="Button" image="START-button.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="show" id="AJm-mT-10J"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -38,7 +54,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OYw-V4-W0r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-312" y="160"/>
+            <point key="canvasLocation" x="-396" y="158"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -60,6 +76,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="START-button.png" width="265" height="74"/>
         <image name="top sankaku-01.png" width="647" height="967"/>
     </resources>
 </document>
