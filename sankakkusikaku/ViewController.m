@@ -84,6 +84,18 @@
     sankakuImageView.frame = CGRectMake(200, 300, 30, 30);
     //100×100の大きさで、x=50、y=150の位置まで動かす
     
+    UIImageView *sankaku1ImageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 40, 30, 30)];
+    [sankaku1ImageView setImage:[UIImage imageNamed:@"sankaku1.png"]];
+    [self.view addSubview:sankaku1ImageView];
+    
+    [UIView beginAnimations:nil context:nil];
+    //アニメーション
+    
+    [UIView setAnimationDuration:2.0];//アニメーションの実行時間を設定（2秒）
+    
+    sankaku1ImageView.frame = CGRectMake(250, 500, 30, 30);
+    //100×100の大きさで、x=50、y=150の位置まで動かす
+    
     
     
     
