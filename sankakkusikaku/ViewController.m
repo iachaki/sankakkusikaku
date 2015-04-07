@@ -113,7 +113,7 @@
     maruImageView.frame = CGRectMake(60, 400, 20, 20);
     //100×100の大きさで、x=50、y=150の位置まで動かす
     
-    
+  button
     [UIView commitAnimations];
     
     
