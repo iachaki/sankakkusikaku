@@ -11,6 +11,6 @@
 @interface MenucollectionViewController : UIViewController
 
 {
-    NSArray array;
+    NSArray *array;
 }
 @end

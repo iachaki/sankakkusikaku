@@ -34,42 +34,6 @@
 }
 */
 
--(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
-
-{
-    return 1;
-}
-
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-#pragma mark - yuma_fix
-    return array.count;
-}
-
-- (CGSize)collectionView:(UICollectionView*)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
-{
-    UIScreen *mainScreen = [UIScreen mainScreen];
-    NSLog(@"Screen bounds: %@, Screen resolution: %@, scale: %f, nativeScale: %f",
-          NSStringFromCGRect(mainScreen.bounds), mainScreen.coordinateSpace, mainScreen.scale, mainScreen.nativeScale);
-    int width = mainScreen.bounds.size.width;
-    return CGSizeMake(width/3, (float)(width/3)*1.5);
-}
-
-- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
-{
-    return UIEdgeInsetsMake(0.0f, 0.0f, 8.0f, 15.0f);
-}
-
-- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
-{
-    return 0.0f;
-}
-
-- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section
-{
-    return 0.0f;
-}
-
-
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     //_collectionView.scrollEnabled=YES;
     
@@ -94,5 +58,4 @@
     
     
 //    UIImageView *imageView = (UIImageView *)[cell viewWithTag:1];
-
-@end
+    @end
